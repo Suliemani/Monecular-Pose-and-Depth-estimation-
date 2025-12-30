@@ -1,2 +1,7 @@
-# Monecular-Pose-and-Depth-estimation-
-Monocular pose classification and depth estimation are explored using deep learning on single RGB images. Custom CNNs and pretrained models are evaluated under challenging visual conditions such as blur and noise. Results show that lightweight and selectively fine-tuned architectures achieve accurate pose recognition and reliable depth prediction.
+# Monocular Pose and Depth Estimation
+
+This project explores monocular pose classification and depth estimation from single RGB images using deep learning. It focuses on understanding how different neural network architectures extract spatial information from minimal visual input under challenging conditions such as blur, noise, and limited viewpoints.
+
+Custom convolutional neural networks and pretrained models are implemented and compared across both classification and regression tasks. The work emphasises robustness, generalisation, and training strategy, including selective fine-tuning and staged unfreezing.
+
+The results show that lightweight CNNs are highly effective for pose recognition, while pretrained architectures benefit depth estimation when carefully fine-tuned. Overall, the project demonstrates how accurate pose and depth information can be recovered from a single image without relying on multi-view geometry or additional sensors.
